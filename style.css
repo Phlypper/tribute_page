@@ -3,7 +3,6 @@
 }
 
 body {
-    font-family: Georgia, serif;
     margin: 0;
     padding: 0;
     background-color: #d8bfd8;
@@ -18,11 +17,16 @@ body {
     border-radius: 8px;
 }
 
-.content {
+#main {
+    background-color: #EEEEEE;
+    margin: 30px 0;
+    font-family: Georgia, serif;
+    font-weight: 300;
     text-align: center;
+    box-sizing: border-box;
 }
 
-/* Shiny Reflective Text */
+    /* Shiny Reflective Text */
 .shiny-reflective {
     font-size: 2em;
     margin-bottom: 10px;
