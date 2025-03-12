@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d8bfd8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.content {
+    text-align: center;
+}
+
+/* Shiny Reflective Text */
+.shiny-reflective {
+    font-size: 2em;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #a100ff 20%, #e600ff 50%, #a100ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.2em;
+    background: linear-gradient(90deg, #a100ff 20%, #e600ff 50%, #a100ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Quote Styling */
+.quote {
+    font-style: italic;
+    margin-top: 20px;
+    color: purple;
+}
+
+/* Custom Bullet Points */
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 30px;
+}
+
+li::before {
+    content: "📚 ";
+    position: absolute;
+    left: 0;
+}
+
+/* Blockquote Styling */
+blockquote {
+    font-style: italic;
+    margin-top: 20px;
+    color: #006400; /* Darker green for readability */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #d8bfd8; /* Light purple text for contrast */
+    border-radius: 0 0 8px 8px;
+}
+
+/* Tribute Link */
+#tribute-link {
+    color: teal;
+    text-decoration: underline;
+    font-weight: bold;
+}
