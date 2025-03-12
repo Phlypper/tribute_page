@@ -27,8 +27,11 @@ body {
     font-size: 2em;
     margin-bottom: 10px;
     background: linear-gradient(90deg, #a100ff 20%, #e600ff 50%, #a100ff 80%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: inline-block;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
@@ -36,8 +39,11 @@ body {
 .subtitle {
     font-size: 1.2em;
     background: linear-gradient(90deg, #a100ff 20%, #e600ff 50%, #a100ff 80%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: inline-block;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
