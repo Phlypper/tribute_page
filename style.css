@@ -108,9 +108,11 @@ nav ul li a:hover {
 
 /* ====== RESPONSIVE IMAGES ====== */
 img {
-  max-width: 100%;
+  width: 50%;
+  max-width: 400px;
   height: auto;
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -201,4 +203,9 @@ footer {
   .container {
       padding: 15px;
   }
+
+  img {
+    width: 70%;  /* Slightly bigger on smaller screens */
+    max-width: 300px;
+}
 }
